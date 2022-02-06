@@ -7,13 +7,17 @@ body {
 }
 
 h1,
-h2 {
+h2,
+i,
+#selected {
     color: darkred;
 }
 
 h3, 
+h4,
 p,
-li {
+li,
+address {
     color: green;
 }
 
@@ -54,6 +58,8 @@ nav a:hover {
 
 #banner {
     width: 100%;
+    aspect-ratio: 2/1;
+    max-width: 762px;
     height: auto;
     background-color: white;
 }
@@ -74,6 +80,17 @@ nav a:hover {
     margin: 10px;
 }
 
+.closure-info {
+    border: 1em solid darkred;
+    background-color:thistle;
+    padding: .2em;
+    width: 100%;
+}
+
+.closure-info h3 {
+    color: darkred;
+}
+
 table {
     border: 3px solid black;
     width: 100%;
@@ -83,4 +100,9 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+footer {
+    color: darkred;
+    padding-top: 2em;
 }
